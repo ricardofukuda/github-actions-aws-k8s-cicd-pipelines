@@ -1,0 +1,4 @@
+apiVersion: v2
+appVersion: 1.0.0
+name: website
+version: 1.0.0

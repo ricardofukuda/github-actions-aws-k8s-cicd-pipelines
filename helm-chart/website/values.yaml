@@ -1,0 +1,12 @@
+name: website
+repository: 123456789.dkr.ecr.us-east-1.amazonaws.com
+image: website
+tag: latest
+containerPorts:
+  http: 80
+livenessProbe:
+  path: /
+  port: 80
+readinessProbe:
+  path: /
+  port: 80

@@ -1,0 +1,10 @@
+name: kubectl-helm
+author: fukuda
+inputs:
+  run:
+    required: true
+    description: "commands to run"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  entrypoint: '/entrypoint.sh'
